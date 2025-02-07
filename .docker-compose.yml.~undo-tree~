@@ -1,0 +1,172 @@
+(undo-tree-save-format-version . 1)
+"e1529baa2328d9c89f539024a25f2ec0dd6eb293"
+[nil nil nil nil (26533 56625 529836 0) 0 nil]
+([nil nil ((1 . 394) (t . -1)) nil (26533 56625 529832 0) 0 nil])
+([nil nil (("  - ./codemeter:/opt/codemeter  # CodeMeter をコンテナにマウントする場合（必要に応じて）" . 212) (undo-tree-id5 . -66) (t 26533 56625 552898 134000)) nil (26533 56645 956698 0) 0 nil])
+([nil nil ((212 . 278)) nil (26533 56645 956697 0) 0 nil])
+([nil nil ((278 . 285)) nil (26533 56645 956696 0) 0 nil])
+([nil nil (("      " . 279) (undo-tree-id2 . -6) (undo-tree-id3 . -6) (undo-tree-id4 . -6) 285) nil (26533 56645 956695 0) 0 nil])
+([nil nil ((207 . 212)) nil (26533 56645 956693 0) 0 nil])
+([nil nil ((212 . 278)) nil (26533 56645 956692 0) 0 nil])
+([nil nil (("r" . 218) ("e" . 218) ("t" . 218) ("e" . 218) ("m" . 218) ("e" . 218) ("d" . 218) ("o" . 218) ("c" . 218)) nil (26533 56645 956691 0) 0 nil])
+([nil nil ((218 . 222)) nil (26533 56645 956689 0) 0 nil])
+([nil nil (("d" . 229) ("o" . 229)) nil (26533 56645 956688 0) 0 nil])
+([nil nil (("r" . 228) ("e" . 228) ("t" . 228) ("e" . 228) ("m" . 228) ("e" . 228) ("c" . 228)) nil (26533 56645 956687 0) 0 nil])
+([nil nil ((228 . 232)) nil (26533 56645 956685 0) 0 nil])
+([nil nil (("# CodeMeter をコンテナにマウントする場合（必要に応じて）" . 234) (undo-tree-id1 . -34)) nil (26533 56645 956684 0) 0 nil])
+([nil nil (("  
+" . 232) (undo-tree-id0 . -3)) nil (26533 56645 956681 0) 0 nil])
+([nil nil ((232 . 233)) nil (26533 56645 956666 0) 0 nil])
+([nil nil (("version: '3.8'
+" . 1) (undo-tree-id17 . -15) (t 26533 56645 960352 618000)) nil (26533 57215 14787 0) 0 nil])
+([nil nil (("
+" . 1) (undo-tree-id16 . -1)) nil (26533 57215 14786 0) 0 nil])
+([nil nil (("services:
+" . 1) (undo-tree-id15 . -10)) nil (26533 57215 14785 0) 0 nil])
+([nil nil (("  codemeter-container:
+" . 1) (undo-tree-id14 . -23)) nil (26533 57215 14784 0) 0 nil])
+([nil nil (("    build:
+" . 1) (undo-tree-id13 . -11)) nil (26533 57215 14782 0) 0 nil])
+([nil nil (("      context: .
+" . 1) (undo-tree-id12 . -17)) nil (26533 57215 14781 0) 0 nil])
+([nil nil (("      dockerfile: Dockerfile
+" . 1) (undo-tree-id11 . -29)) nil (26533 57215 14780 0) 0 nil])
+([nil nil (("    container_name: codemeter_container
+" . 1) (undo-tree-id10 . -40)) nil (26533 57215 14779 0) 0 nil])
+([nil nil (("    platform: linux/amd64  # x86_64 プラットフォームを指定
+" . 1) (undo-tree-id9 . -48)) nil (26533 57215 14778 0) 0 nil])
+([nil nil (("    volumes:
+" . 1) (undo-tree-id8 . -13)) nil (26533 57215 14777 0) 0 nil])
+([nil nil (("      - ./work:/opt/work
+" . 1) (undo-tree-id7 . -25)) nil (26533 57215 14776 0) 0 nil])
+([nil nil (("      - ./codemeter:/opt/codemeter  # CodeMeter をコンテナにマウントする場合（必要に応じて）
+" . 1) (undo-tree-id6 . -71)) nil (26533 57215 14774 0) 0 nil])
+([nil nil (("
+" . 1) (undo-tree-id5 . -1)) nil (26533 57215 14773 0) 0 nil])
+([nil nil (("    ports:
+" . 1) (undo-tree-id4 . -11)) nil (26533 57215 14772 0) 0 nil])
+([nil nil (("      - \"22350:22350\"  # CodeMeter サーバーのポートを公開
+" . 1) (undo-tree-id3 . -47)) nil (26533 57215 14771 0) 0 nil])
+([nil nil (("    environment:
+" . 1) (undo-tree-id2 . -17)) nil (26533 57215 14770 0) 0 nil])
+([nil nil (("      - CM_SERVER=1
+" . 1) (undo-tree-id1 . -20)) nil (26533 57215 14768 0) 0 nil])
+([nil nil (("    restart: always
+" . 1) (undo-tree-id0 . -20)) nil (26533 57215 14763 0) 0 nil])
+([nil nil ((1 . 392) (t 26533 57215 18290 302000)) nil (26533 57221 450082 0) 0 nil])
+([nil nil (("      - ./codemeter:/opt/codemeter  # CodeMeter インストールファイルをコンテナにマウント
+" . 208) (undo-tree-id22 . -69) (t 26533 57221 452473 885000)) nil (26533 57241 612457 0) 0 nil])
+([nil nil ((208 . 277)) nil (26533 57241 612456 0) 0 nil])
+([nil nil (("    " . -278) (277 . 278)) nil (26533 57241 612455 0) 0 nil])
+([nil nil ((278 . 347)) nil (26533 57241 612454 0) 0 nil])
+([nil nil (("
+" . 277) (undo-tree-id19 . -1) (undo-tree-id20 . -1) (undo-tree-id21 . -1)) nil (26533 57241 612453 0) 0 nil])
+([nil nil (("/" . 286)) nil (26533 57241 612450 0) 0 nil])
+([nil nil (("d" . 287) ("o" . 287)) nil (26533 57241 612449 0) 0 nil])
+([nil nil (("r" . 286) ("e" . 286) ("t" . 286) ("e" . 286) ("m" . 286) ("e" . 286) ("c" . 286)) nil (26533 57241 612448 0) 0 nil])
+([nil nil ((286 . 291)) nil (26533 57241 612447 0) 0 nil])
+([nil nil ((":" . 291)) nil (26533 57241 612446 0) 0 nil])
+([nil nil ((291 . 292)) nil (26533 57241 612445 0) 0 nil])
+([nil nil (("e" . 297) ("t" . 297) ("e" . 297) ("m" . 297) ("e" . 297) ("d" . 297) ("o" . 297) ("c" . 297)) nil (26533 57241 612444 0) 0 nil])
+([nil nil (("r  # CodeMeter インストールファイルをコンテナにマウント" . 297) (undo-tree-id18 . -35)) nil (26533 57241 612441 0) 0 nil])
+([nil nil ((297 . 301)) nil (26533 57241 612428 0) 0 nil])
+([nil nil (("  # CodeMeter サーバーのポートを公開" . 330) (undo-tree-id1 . -25) (t 26533 57241 615969 860000)) nil (26533 57585 392483 0) 0 nil])
+([nil nil (("  # CodeMeter インストールファイルをコンテナにマウント" . 242) (undo-tree-id0 . -34)) nil (26533 57585 392478 0) 0 nil])
+([nil nil ((268 . 272) (t 26533 57585 396859 394000)) nil (26533 57596 137829 0) 0 nil])
+([nil nil (("version: '3.8'
+
+services:
+  codemeter-container:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: codemeter_container
+    platform: linux/amd64  # x86_64 プラットフォームを指定
+    volumes:
+      - ./codemeter:/opt/codemeter
+      - ./work:/opt/work
+    ports:
+      - \"22350:22350\"
+    environment:
+      - CM_SERVER=1
+    restart: always
+" . 1) (undo-tree-id0 . -357) (undo-tree-id1 . -357) (undo-tree-id2 . -357) (undo-tree-id3 . -357) 358 (t 26533 57596 141122 640000)) nil (26533 57847 825171 0) 0 nil])
+([nil nil ((1 . 430) (t 26533 57847 828145 651000)) nil (26533 57852 278538 0) 0 nil])
+([nil nil (("r" . 29) ("e" . 29) ("t" . 29) ("e" . 29) ("m" . 29) ("e" . 29) ("d" . 29) ("o" . 29) ("c" . 29) (t 26533 57852 282067 798000)) nil (26534 1536 259729 0) 0 nil])
+([nil nil ((29 . 34)) nil (26534 1536 259727 0) 0 nil])
+([nil nil ((34 . 41)) nil (26534 1536 259727 0) 0 nil])
+([nil nil (("codemeter_container" . 130) (undo-tree-id4 . -19)) nil (26534 1536 259726 0) 0 nil])
+([nil nil ((130 . 133)) nil (26534 1536 259725 0) 0 nil])
+([nil nil ((133 . 142)) nil (26534 1536 259724 0) 0 nil])
+([nil nil ((142 . 152)) nil (26534 1536 259723 0) 0 nil])
+([nil nil (("    ports:
+" . 274) (undo-tree-id3 . -11)) nil (26534 1536 259723 0) 0 nil])
+([nil nil (("      - \"22350:22350\"
+" . 274) (undo-tree-id2 . -22)) nil (26534 1536 259721 0) 0 nil])
+([nil nil (("    environment:
+" . 274) (undo-tree-id1 . -17)) nil (26534 1536 259719 0) 0 nil])
+([nil nil (("      - CM_SERVER=1
+" . 274) (undo-tree-id0 . -20)) nil (26534 1536 259714 0) 0 nil])
+([nil nil ((273 . 280) (t 26534 1536 265775 59000)) nil (26534 1558 563598 0) 0 nil])
+([nil nil (("      " . 274) (undo-tree-id6 . -6) (undo-tree-id7 . -6) (undo-tree-id8 . -6) 280) nil (26534 1558 563597 0) 0 nil])
+([nil nil ((274 . 321)) nil (26534 1558 563594 0) 0 nil])
+([nil nil ((" " . 274) (" " . 274) (" " . 274) (" " . 274) (" " . 274) (" " . 274)) nil (26534 1558 563592 0) 0 nil])
+([nil nil (("
+" . 315) (undo-tree-id5 . -1)) nil (26534 1558 563588 0) 0 nil])
+([nil nil ((334 . 339) (t 26534 1558 566951 233000)) nil (26534 1585 908959 0) 0 nil])
+([nil nil ((335 . 385)) nil (26534 1598 352545 0) 0 nil] [nil nil ((339 . 389)) (("        environment:
+            - DISPLAY=unix:0
+" . 339)) (26534 1584 826625 0) 0 nil])
+([nil nil ((" " . 335) (" " . 335) (" " . 335) (" " . 335)) nil (26534 1598 352545 0) 0 nil])
+nil
+([nil nil ((" " . 352) (" " . 352) (" " . 352) (" " . 352) (" " . 352)) nil (26534 1598 352543 0) 0 nil])
+([nil nil ((" " . 352)) nil (26534 1598 352542 0) 0 nil])
+([nil nil (("    environment:
+      - DISPLAY=unix:0
+" . 335) (undo-tree-id13 . -40) (undo-tree-id14 . -40) 375) nil (26534 1598 352541 0) 0 nil])
+([nil nil ((315 . 355)) nil (26534 1598 352539 0) 0 nil])
+([nil nil (("    
+" . 375) (undo-tree-id9 . -4) (undo-tree-id10 . -4) (undo-tree-id11 . -4) (undo-tree-id12 . -5)) nil (26534 1598 352537 0) 0 nil])
+([nil nil ((446 . 451) (t 26534 1598 354585 426000)) nil (26534 1614 395263 0) 0 nil])
+([nil nil (("    " . 447) (undo-tree-id15 . -4) (undo-tree-id16 . -4) (undo-tree-id17 . -4) 451) nil (26534 1614 395262 0) 0 nil])
+([nil nil ((447 . 472)) nil (26534 1614 395250 0) 0 nil])
+([nil nil ((" " . 447) (" " . 447) (" " . 447) (" " . 447) (" " . 447)) nil (26534 1614 395247 0) 0 nil])
+([nil nil ((447 . 448)) nil (26534 1614 395241 0) 0 nil])
+([nil nil (("  # x86_64 プラットフォームを指定" . 178) (undo-tree-id20 . -22) (t 26534 1614 399298 320000)) nil (26534 1645 588036 0) 0 nil])
+([nil nil (("  # 対話型のシェルを開けるようにする" . 366) (undo-tree-id19 . -20)) nil (26534 1645 588034 0) 0 nil])
+([nil nil (("  # 標準入力を開いたままにする" . 387) (undo-tree-id18 . -17)) nil (26534 3383 755820 0) 0 nil])
+([nil nil ((332 . 339) (t 26534 1645 590669 69000)) nil (26534 3392 722675 0) 0 nil] [nil nil ((192 . 195) ("      " . 192) (undo-tree-id0 . -6) 198 (t 26534 1645 590669 69000)) ((192 . 198) ("
+
+
+" . 192) (undo-tree-id1 . -3) (undo-tree-id2 . -3) (undo-tree-id3 . -3)) (26534 3382 318175 0) 0 nil])
+([nil nil ((339 . 377)) nil (26534 3392 722674 0) 0 nil])
+nil
+([nil nil ((" " . 333) (undo-tree-id9 . -1) (undo-tree-id10 . -1) (undo-tree-id11 . -1) (undo-tree-id12 . -1) (" " . 333) (" " . 333) (" " . 333) (" " . 333) (" " . 333)) nil (26534 3392 722672 0) 0 nil])
+([nil nil (("      - DISPLAY=unix:0
+" . 310) (undo-tree-id4 . -23) (undo-tree-id5 . -23) (undo-tree-id6 . -23) (undo-tree-id7 . -23) (undo-tree-id8 . -23)) nil (26534 3392 722664 0) 0 nil])
+([nil nil ((424 . 429) (t 26534 3392 757416 572000)) nil (26534 3427 479745 0) 0 nil])
+([nil nil ((429 . 445)) nil (26534 3427 479744 0) 0 nil])
+([nil nil ((444 . 448)) nil (26534 3427 479744 0) 0 nil])
+([nil nil ((449 . 454)) nil (26534 3427 479743 0) 0 nil])
+([nil nil (("    " . 450) (undo-tree-id16 . -4) (undo-tree-id17 . -4) (undo-tree-id18 . -4) 454) nil (26534 3427 479741 0) 0 nil])
+([nil nil (("
+" . 450) (undo-tree-id13 . -1) (undo-tree-id14 . -1) (undo-tree-id15 . -1)) nil (26534 3427 479735 0) 0 nil])
+([nil nil (("r" . 29) ("e" . 29) ("d" . 29) ("l" . 29) ("i" . 29) ("u" . 29) ("b" . 29) ("n" . 29) ("i" . 29) ("a" . 29) ("r" . 29) ("b" . 29) (t 26534 5804 17964 736000)) nil (26534 5873 337918 0) 0 nil])
+([nil nil ((29 . 35)) nil (26534 5873 337916 0) 0 nil])
+([nil nil (("_" . 124) ("r" . 124) ("e" . 124) ("d" . 124) ("l" . 124) ("i" . 124) ("u" . 124) ("b" . 124) ("n" . 124) ("i" . 124) ("a" . 124) ("r" . 124) ("b" . 124)) nil (26534 5873 337915 0) 0 nil])
+([nil nil ((124 . 131)) nil (26534 5873 337912 0) 0 nil])
+([nil nil (("      - ./codemeter:/opt/codemeter
+" . 180) (undo-tree-id5 . -35)) nil (26534 5873 337912 0) 0 nil])
+([nil nil (("      - ./work:/opt/work
+" . 180) (undo-tree-id4 . -25)) nil (26534 5873 337911 0) 0 nil])
+([nil nil (("
+" . 378) (undo-tree-id3 . -1)) nil (26534 5873 337910 0) 0 nil])
+([nil nil ((166 . 168)) nil (26534 5873 337908 0) 0 nil])
+([nil nil (("  
+" . 166) (undo-tree-id2 . -3)) nil (26534 5873 337907 0) 0 nil])
+([nil nil ((166 . 167)) nil (26534 5873 337906 0) 0 nil])
+([nil nil ((166 . 168)) nil (26534 5873 337906 0) 0 nil])
+([nil nil ((168 . 171)) nil (26534 5873 337905 0) 0 nil])
+([nil nil ((">" . -169) (undo-tree-id0 . -1) ("<" . -170) (undo-tree-id1 . -1) 171) nil (26534 5873 337903 0) 0 nil])
+([nil current ((169 . 174)) nil (26534 5873 337886 0) 0 nil])
+nil

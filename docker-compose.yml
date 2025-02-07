@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  macx11-container:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: macx11-container
+    platform: linux/amd64 # <<<< 
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+    environment:
+      - DISPLAY=host.docker.internal:0
+    restart: always
+    tty: true
+    stdin_open: true
+    privileged: true
+    network_mode: "host"
